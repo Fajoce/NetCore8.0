@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\bin\Debug\net8.0\Bookstore.Infraestructure.deps.json
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\bin\Debug\net8.0\Bookstore.Infraestructure.dll
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\bin\Debug\net8.0\Bookstore.Infraestructure.pdb
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\bin\Debug\net8.0\Bookstore.Domain.dll
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\bin\Debug\net8.0\Bookstore.Domain.pdb
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.AssemblyInfo.cs
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstor.5A264DA9.Up2Date
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.dll
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\refint\Bookstore.Infraestructure.dll
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.pdb
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\ref\Bookstore.Infraestructure.dll

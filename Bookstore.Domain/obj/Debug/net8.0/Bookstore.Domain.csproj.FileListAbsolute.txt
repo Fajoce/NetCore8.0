@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\bin\Debug\net8.0\Bookstore.Domain.deps.json
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\bin\Debug\net8.0\Bookstore.Domain.dll
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\bin\Debug\net8.0\Bookstore.Domain.pdb
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\obj\Debug\net8.0\Bookstore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\obj\Debug\net8.0\Bookstore.Domain.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\obj\Debug\net8.0\Bookstore.Domain.AssemblyInfo.cs
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\obj\Debug\net8.0\Bookstore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\obj\Debug\net8.0\Bookstore.Domain.dll
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\obj\Debug\net8.0\refint\Bookstore.Domain.dll
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\obj\Debug\net8.0\Bookstore.Domain.pdb
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Domain\obj\Debug\net8.0\ref\Bookstore.Domain.dll
