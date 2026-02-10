@@ -8,6 +8,7 @@ C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\De
 C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.AssemblyInfoInputs.cache
 C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.AssemblyInfo.cs
 C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.sourcelink.json
 C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstor.5A264DA9.Up2Date
 C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\Bookstore.Infraestructure.dll
 C:\Users\USER\source\repos\BookstoreApplication\Bookstore.Infraestructure\obj\Debug\net8.0\refint\Bookstore.Infraestructure.dll
