@@ -44,6 +44,7 @@ namespace Bookstore.Application.Services
                 from a in _context.authors.AsNoTracking()
                 select new GetAuthorsDto
                 {
+                    Id = a.Id,
                     FullName = a.FullName,
                     BirthDate = a.BirthDate,
                     City = a.City,

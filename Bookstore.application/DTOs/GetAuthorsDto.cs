@@ -9,7 +9,7 @@ namespace Bookstore.Application.DTOs
 {
     public class GetAuthorsDto
     {
-     
+     public int Id { get; set; }
         public string FullName { get; set; } = default!;
 
         public DateTime BirthDate { get; set; }
