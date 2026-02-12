@@ -3333,9 +3333,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\BookstoreApplication\\BookstoreApplication\\BookstoreApplication.csproj",
-      "projectName": "BookstoreApplication",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\BookstoreApplication\\BookstoreApplication\\BookstoreApplication.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\BookstoreApplication\\BookstoreApplication\\Bookstore.Api.csproj",
+      "projectName": "Bookstore.Api",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\BookstoreApplication\\BookstoreApplication\\Bookstore.Api.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USER\\source\\repos\\BookstoreApplication\\BookstoreApplication\\obj\\",
       "projectStyle": "PackageReference",

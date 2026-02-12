@@ -20,8 +20,7 @@ namespace Bookstore.Application.DTOs
 
         [Required]
         public int Pages { get; set; }
-
-        [Required]
-        public int AuthorId { get; set; }
+       
+        public int? AuthorId { get; set; }
     }
 }

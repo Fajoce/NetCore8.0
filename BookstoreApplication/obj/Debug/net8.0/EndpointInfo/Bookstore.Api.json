@@ -185,7 +185,6 @@
       },
       "CreateBookDto": {
         "required": [
-          "authorId",
           "genre",
           "pages",
           "title",
@@ -211,7 +210,8 @@
           },
           "authorId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false

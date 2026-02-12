@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookstoreApplication", "BookstoreApplication\BookstoreApplication.csproj", "{F6D32B0E-0022-4967-9644-F5E6F428BA14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore.Api", "BookstoreApplication\Bookstore.Api.csproj", "{F6D32B0E-0022-4967-9644-F5E6F428BA14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore.Domain", "Bookstore.Domain\Bookstore.Domain.csproj", "{B754CB72-D7F7-47E9-BEF8-23A260E4D95A}"
 EndProject
