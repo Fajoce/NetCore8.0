@@ -1,4 +1,5 @@
-﻿using Bookstore.Api.DTOs;
+﻿using AutoMapper;
+using Bookstore.Api.DTOs;
 using Bookstore.Application.Common;
 using Bookstore.Application.DTOs;
 using Bookstore.Application.Interfaces;
@@ -11,22 +12,17 @@ namespace Bookstore.Application.Services
     public class AuthorService : IAuthorRepository
     {
         private readonly BookstoreDbContext _context;
+        private readonly IMapper _mapper;
 
-        public AuthorService(BookstoreDbContext context)
+        public AuthorService(BookstoreDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         public async Task<Result> AddAsync(CreateAuthorDto author)
         {
-            var entity = new Author
-            {
-                FullName = author.FullName,
-                BirthDate = author.BirthDate,
-                City = author.City,
-                Email = author.Email,
-
-            };
+            var entity = _mapper.Map<Author>(author);
             await _context.authors.AddAsync(entity);
             await _context.SaveChangesAsync();
             return Result.Success();
