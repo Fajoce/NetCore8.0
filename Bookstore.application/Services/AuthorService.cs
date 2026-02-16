@@ -1,16 +1,10 @@
-﻿using AutoMapper.QueryableExtensions;
-using Bookstore.Api.DTOs;
+﻿using Bookstore.Api.DTOs;
 using Bookstore.Application.Common;
 using Bookstore.Application.DTOs;
 using Bookstore.Application.Interfaces;
 using Bookstore.Domain.Entities;
 using Bookstore.Infraestructure;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bookstore.Application.Services
 {

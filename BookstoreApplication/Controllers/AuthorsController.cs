@@ -17,7 +17,6 @@ namespace Bookstore.Api.Controllers
         {
             _service = service;
         }
-        [HttpGet()]
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] PaginationParams pagination)
         {
@@ -31,7 +30,6 @@ namespace Bookstore.Api.Controllers
 
             return Ok(result.Value);
         }
-
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
