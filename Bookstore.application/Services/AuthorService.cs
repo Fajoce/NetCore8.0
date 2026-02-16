@@ -1,4 +1,5 @@
-﻿using Bookstore.Api.DTOs;
+﻿using AutoMapper.QueryableExtensions;
+using Bookstore.Api.DTOs;
 using Bookstore.Application.Common;
 using Bookstore.Application.DTOs;
 using Bookstore.Application.Interfaces;
@@ -38,22 +39,39 @@ namespace Bookstore.Application.Services
 
         }
 
-        public async Task<Result<IEnumerable<GetAuthorsDto>>> GetAll()
+        public async Task<Result<PagedResult<GetAuthorsDto>>> GetAll(PaginationParams pagination)
         {
-            var list = await (
-                from a in _context.authors.AsNoTracking()
-                select new GetAuthorsDto
+            var query = _context.authors
+                .AsNoTracking()
+                .Select(a => new GetAuthorsDto
                 {
                     Id = a.Id,
                     FullName = a.FullName,
                     BirthDate = a.BirthDate,
                     City = a.City,
                     Email = a.Email
-                }
-            ).ToListAsync();
+                })
+                .AsQueryable();
 
-            return Result<IEnumerable<GetAuthorsDto>>.Success(list);
+            var total = await query.CountAsync();
+
+            var authors = await query
+                .Skip((pagination.Page - 1) * pagination.PageSize)
+                .Take(pagination.PageSize)
+                .ToListAsync();
+
+            var result = new PagedResult<GetAuthorsDto>
+            {
+                Items = authors,
+                TotalRecords = total,
+                Page = pagination.Page,
+                PageSize = pagination.PageSize
+            };
+
+            return Result<PagedResult<GetAuthorsDto>>.Success(result);
         }
+
+
 
 
         public async Task<Result<GetAuthorsDto?>> GetByIdAsync(int id)

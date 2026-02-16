@@ -1,4 +1,5 @@
 ﻿using Bookstore.Api.DTOs;
+using Bookstore.Application.Common;
 using Bookstore.Application.DTOs;
 using Bookstore.Application.Services;
 using Microsoft.AspNetCore.Http;
@@ -17,15 +18,20 @@ namespace Bookstore.Api.Controllers
             _service = service;
         }
         [HttpGet()]
-        public async Task<IActionResult> GetAll()
+        [HttpGet]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationParams pagination)
         {
-            var result = await _service.GetAll();
-            if (!result.Value!.Any())
+            var result = await _service.GetAll(pagination);
+
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
+
+            if (!result.Value!.Items.Any())
                 return NotFound("No existen autores registrados");
 
             return Ok(result.Value);
-           
         }
+
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)

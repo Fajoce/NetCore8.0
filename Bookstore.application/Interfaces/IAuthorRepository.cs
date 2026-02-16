@@ -12,7 +12,8 @@ namespace Bookstore.Application.Interfaces
 {
     public interface IAuthorRepository
     {
-        Task<Result<IEnumerable<GetAuthorsDto>>> GetAll();
+        Task<Result<PagedResult<GetAuthorsDto>>> GetAll(PaginationParams pagination);
+
 
         Task<Result<GetAuthorsDto?>> GetByIdAsync(int id);
 
