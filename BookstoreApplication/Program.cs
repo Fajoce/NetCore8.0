@@ -17,10 +17,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BookstoreDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
-builder.Services.AddScoped<IAuthorRepository, AuthorService>();
-builder.Services.AddScoped<IBookRepository, BookService>();
-builder.Services.AddScoped<BookService>();
-builder.Services.AddScoped<AuthorService>();
+builder.Services.AddTransient<IAuthorRepository, AuthorService>();
+builder.Services.AddTransient<IBookRepository, BookService>();
 builder.Services.AddAutoMapper(typeof(BookProfile));
 builder.Services.AddAutoMapper(typeof(AuthorProfile));
 builder.Services.AddCors(options =>

@@ -1,6 +1,7 @@
 ﻿using Bookstore.Api.DTOs;
 using Bookstore.Application.Common;
 using Bookstore.Application.DTOs;
+using Bookstore.Application.Interfaces;
 using Bookstore.Application.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,9 +12,9 @@ namespace Bookstore.Api.Controllers
     [ApiController]
     public class AuthorsController : ControllerBase
     {
-        private readonly AuthorService _service;
+        private readonly IAuthorRepository _service;
 
-        public AuthorsController(AuthorService service)
+        public AuthorsController(IAuthorRepository service)
         {
             _service = service;
         }
